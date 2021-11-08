@@ -76,9 +76,8 @@ class LoginStart extends State<Login>{  //clase donde esta contenido la clase de
                 //Navigator.push(context, MaterialPageRoute(builder: (context) =>  menu())); //dirreccion de boton a pantalla
                 Navigator.push(context, MaterialPageRoute(builder: (context) =>  menu()));
               },
-              color: Colors.lightBlue,
-              child: Text('Ingreso', style: TextStyle(color: Colors.white)),
-            ),
+              color: Colors.lightBlue,(color:Colors . gray)),
+            )
           ],
         ),
       ),
